@@ -71,7 +71,7 @@ function CustomNavbar() { // Renamed component
             <nav className='hidden lg:block'>
                 <div className='flex items-center justify-between px-12 py-4 nav1'>
                     <div className='flex items-center space-x-2'>
-                        <Link className='font-semibold hover:text-neutral-400'>العربية</Link>
+                        <Link className='font-semibold hover:text-neutral-400'>Navbar</Link>
                         <FaArrowDown />
                     </div>
                     <div className='flex items-center space-x-8 font-semibold'>
