@@ -10,7 +10,7 @@ function CustomNavbar() {
 	};
 
 	return (
-		<nav className='px-4 py-5 shadow-lg lg:shadow-sm lg:px-8'>
+		<nav className='sticky top-0 left-0 z-50 px-3 py-5 bg-white shadow-lg p x-4 lg:shadow-sm lg:px-8'>
 			<div className='flex items-center justify-between'>
 				{/* Logo */}
 				<div className='w-28'>
