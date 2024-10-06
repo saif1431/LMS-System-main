@@ -14,6 +14,10 @@ function HomeCourses() {
 <InstructorCard/>
 <InstructorCard/>
 </div>
+
+
+
+
 <button className='py-2 px-2 rounded-full text-sm m-auto mt-4 text-white btn bg-[#3E8982] '>View All</button>
     </div>
   )

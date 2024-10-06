@@ -4,10 +4,10 @@ import img from '../assets/featuresImg.png'
 function HomeFeatures() {
   return (
     <div className='flex flex-col items-center justify-around px-6 py-4 lg:flex-row' >
-      <div className='w-[40%]'>
-            <img className='w-[70%]' src={img} alt="" />
+      <div className='w-full lg:w-[40%]'>
+            <img className='w-full lg:w-[70%]' src={img} alt="" />
       </div>
-      <div className='flex flex-col w-1/2 gap-3'>
+      <div className='flex flex-col w-full gap-3 lg:w-1/2'>
             <h4 className='text-2xl text-[#333333] font-bold'>Our Platform’s Key Features</h4>
            
             <div className='space-y-4 '>

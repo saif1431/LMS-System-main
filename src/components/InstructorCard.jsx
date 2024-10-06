@@ -8,16 +8,16 @@ function InstructorCard() {
       <div className="w-64 p-2 text-black bg-white rounded-lg shadow-xl max-h-fit card">
   <figure className="px-4 pt-4">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      src="https://i0.wp.com/apeejay.news/wp-content/uploads/2023/10/281023-10-most-read-books-Blog.jpg?resize=740%2C524&ssl=1"
       alt="Shoes"
       className="rounded-xl" />
   </figure>
   <div className="items-center text-center card-body">
     <div className='flex items-center justify-end px-4 mt-1 text-sm'>
-    <IoStar className='text-yellow-500' />
-    <IoStar className='text-yellow-500'   />
-    <IoStar className='text-yellow-500' />
-    <IoStar className='text-yellow-500' />
+    <IoStar className='text-[#F6AB27]' />
+    <IoStar className='text-[#F6AB27]'   />
+    <IoStar className='text-[#F6AB27]' />
+    <IoStar className='text-[#F6AB27]' />
     <span className='px-2 text-white bg-[#3E8982] rounded-full'>3.0</span>
     </div>
     <div className='flex flex-col items-start px-4'>
