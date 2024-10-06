@@ -48,7 +48,7 @@ function CustomNavbar() {
 						<li><NavLink to="/" className={({ isActive }) => isActive ? 'text-[#3E8982] font-semibold border-b-2 border-[#3E8982]' : 'text-black'}>Home</NavLink></li>
 						<li><NavLink to="/PromotionalContent" className={({ isActive }) => isActive ? 'text-[#3E8982] font-semibold border-b-2 border-[#3E8982]' : 'text-black'}>Promotional Content</NavLink></li>
 						<li><NavLink to="/Contact" className={({ isActive }) => isActive ? 'text-[#3E8982] font-semibold border-b-2 border-[#3E8982]' : 'text-black'}>Contact Us</NavLink></li>
-						<li><NavLink to="/About" className={({ isActive }) => isActive ? 'text-[#3E8982] font-semibold border-b-2 border-[#3E8982]' : 'text-black'}>About Us</NavLink></li>
+						<li><NavLink to="/About" className={({ isActive }) => isActive ? 'text-[#3E8982] font-semibold border-b-2 border-[#3E8982]' : 'text-black'}>About</NavLink></li>
 					</ul>
 					<div className='mt-4 space-y-2'>
 						<button className='block w-full text-left text-[#3E8982]'>Login</button>
