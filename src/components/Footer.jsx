@@ -7,6 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import appleImg from '../assets/apple.png'
 import playStoreImg from '../assets/google-play.png'
+import termCondition from './LandingPage Component/TermCondition.jsx'
  
 function Footer() {
   return (
@@ -21,14 +22,14 @@ function Footer() {
             </div>
       </div>
       <div className='flex flex-col items-start gap-2'>
-           <NavLink>About</NavLink>
+           <NavLink to={'/about'}>About</NavLink>
            <NavLink>Contact US</NavLink>
-           <NavLink>Terms and Conditions</NavLink>
+           <NavLink to = {'/termCondition'}>Terms and Conditions</NavLink>
           
       </div>
       <div className='flex flex-col items-start gap-2 mt-4 lg:mt-0'>
-           <NavLink>Privacy Policy</NavLink>
-           <NavLink>Service Agreement</NavLink>
+           <NavLink to={'/privacyPolicy'}>Privacy Policy</NavLink>
+           <NavLink to={'/serviceAggrement'}>Service Agreement</NavLink>
           
           
       </div>

@@ -8,7 +8,14 @@ export default {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#3E8982',
+        'secondary': '#FEB705',
+        'tertiary': '#333',
+        'txtColor': '#fff'
+      }
+    },
   },
   plugins: [
     flowbite.plugin(),

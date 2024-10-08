@@ -4,8 +4,8 @@ function HomeFacilities() {
   return (
     <div className='max-w-6xl mx-auto mt-10'>
      <div className='flex flex-col items-center justify-center'>
-      <h3 className='text-2xl font-bold text-[#333333] leading-relaxed'>How are we different?</h3>
-      <p className='text-[#333333] w-full  lg::w-[50%] font-semibold text-center'>At <span className='text-[#3E8982]'>Al Mohandes</span> Educational Institution, we are more than just an educational platform. We pride ourselves on offering a unique learning experience that sets us apart from the rest</p>
+      <h3 className='text-2xl font-bold leading-relaxed text-tertiary'>How are we different?</h3>
+      <p className='text-tertiary w-full  lg:w-[50%] text-center'>At <span className='font-medium text-primary'>Al Mohandes</span> Educational Institution, we are more than just an educational platform. We pride ourselves on offering a unique learning experience that sets us apart from the rest</p>
      </div>
 
 
