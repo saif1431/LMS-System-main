@@ -37,7 +37,9 @@ function CustomNavbar() {
 				{/* Login and Create Account Buttons */}
 				<div className='items-center hidden space-x-4 lg:flex'>
 					<button className='text-primary'>Login</button>
+					<NavLink to={'/signup'}>
 					<button className='px-4 py-2 text-txtColor bg-primary rounded-full hover:bg-[#26625c]'>Create Account</button>
+					</NavLink>
 				</div>
 			</div>
 
@@ -52,7 +54,9 @@ function CustomNavbar() {
 					</ul>
 					<div className='mt-4 space-y-2'>
 						<button className='block w-full text-left text-primary'>Login</button>
+						<NavLink to={"/createAccount"}>
 						<button className='block w-full px-4 py-2 text-txtColor bg-primary rounded-full hover:bg-[#26625c]'>Create Account</button>
+						</NavLink>
 					</div>
 				</div>
 			)}
